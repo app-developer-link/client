@@ -1,0 +1,396 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Name</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/intlTelInput.min.css" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid" id="over-all">
+        <form>
+            <div style="padding: 55px;">
+                <h2 class="text-center">ชื่อโครงการ</h2>
+                <div class="row m-3">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <h3>ข้อมูลส่วนตัว</h3>
+                    </div>
+                </div>
+
+                <div class="row m-3">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="row m-3">
+                            <div class="col-md-2 m-1"></div>
+                            <div class="col-md-5 col-sm-12">
+                                <div class="mb-3">
+                                    <h5>คำนำหน้าชื่อ</h5>
+                                    <select id="myList">
+                                        <option value="3">โปรดเลือก</option>
+                                        <option value="1">นาย (Mr.)</option>
+                                        <option value="2">นาง (Mrs.)</option>
+                                        <option value="3">นางสาว (Miss.)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row m-2">
+                    <div class="col-md-2 m-2"></div>
+                    <div class="col-md-3 m-1">
+                        <h6>ชื่อ(ภาษาไทย) </h6>
+                        <input type="Name" class="form-control form-controls shadow" style="font-weight: 100;">
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 m-1">
+                        <h6>นามสกุล(ภาษาไทย)</h6>
+                        <input type="Name" class="form-control form-controls shadow" style="font-weight: 100;">
+                    </div>
+                </div>
+
+                <div class="row m-2">
+                    <div class="col-md-2 m-2">
+
+                    </div>
+                    <div class="col-md-3 col-sd-12 m-1">
+                        <h6>ชื่อ(ภาษาอังกฤษ)</h6>
+                        <input type="Name" class="form-control form-controls shadow" style="font-weight: 100;">
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 col-sm-12 m-1">
+                        <h6>นามสกุล(ภาษาอังกฤษ)</h6>
+                        <input type="Name" class="form-control form-controls shadow" style="font-weight: 100;">
+                    </div>
+                </div>
+
+
+                <div class="row m-3">
+                    <div class="col-md-2 m-2">
+
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <div class="mb-3">
+                            <h6>E-mail:</h6>
+                            <input type="email" class="form-control form-controls shadow" style="font-weight: 100;"
+                                placeholder="กรอกอีเมล์ของคุณ">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row m-3" id="fhone">
+                    <div class="col-md-2 m-2" style="padding-left: 50px;">
+
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="mb-3">
+                            <h6 style="color: white;"> เบอร์โทรศัพท์(มือถือ) </h6>
+                            <input type="phone" class="form-control form-controls shadow"
+                                style="font-weight: 100;" id="phone">
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 col-sm-12">
+                        <h6 style="color: white;"> เบอร์โทรศัพท์(บ้าน)</h6>
+                        <div class="mb-3">
+                            <input type="phone" class="form-control form-controls shadow" style="font-weight: 100;">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row m-3">
+                    <div class="col-md-2 m-2">
+
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <div class="mb-3">
+                            <h6>Line ID:</h6>
+                            <input type="email" class="form-control form-controls shadow" style="font-weight: 100;">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row m-2">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4 col-sm-12 m-3">
+                            <h5>ที่อยู่ปัจจุบัน</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 m-2"></div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="mb-3">
+                            <h6>จังหวัด</h6>
+                            <input class="form-control form-controls shadow" style="font-weight: 100;" id=""
+                                placeholder="List จังหวัด">
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="mb-3">
+                            <h6>อำเภอ</h6>
+                            <input class="form-control form-controls shadow" style="font-weight: 100;"
+                             placeholder="List อำเภอ">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row m-2">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4 col-sm-12 m-3">
+                            <h5>ที่อยู่ที่ทำงาน</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-2 m-2">
+
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="mb-3">
+                            <h6>จังหวัด</h6>
+                            <input class="form-control form-controls shadow" style="font-weight: 100;"
+                                placeholder="List จังหวัด">
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="mb-3">
+                            <h6>อำเภอ</h6>
+                            <input class="form-control form-controls shadow" style="font-weight: 100;"
+                                 placeholder="List อำเภอ">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row m-3">
+                    <div class="col-md-2 m-1">
+
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="mb-3 m-1">
+                            <h6>รายได้</h6>
+                            <select id="myList">
+                                <option value="3">โปรดเลือก</option>
+                                <option value="1">15,000 - 25,000</option>
+                                <option value="2">25,001 - 35,000</option>
+                                <option value="3">35,000 - 50,000</option>
+                                <option value="3">มากกว่า 50,001</option>
+                            </select>
+                            บาท/เดือน
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row m-3">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3">
+                        <h3>ข้อมูลโครงการ</h3>
+                    </div>
+                </div>
+
+                <div class="m-4">
+                    <div class="row m-3">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3 col-sm-12">
+                            <h5>รูปแบบบ้าน</h5>
+                        </div>
+                    </div>
+
+                    <div class="row m-2">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    บ้านเดี่ยว
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    บ้านแฝด
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    ทาวน์โฮม
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-4">
+                    <div class="row m-3">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3 col-sm-12">
+                            <h5>จำนวนห้องนอน</h5>
+                        </div>
+                    </div>
+
+
+                    <div class="row m-2">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2 col-sm-12 m-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    4 ห้องนอน
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-12 m-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    3 ห้องนอน
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-12 m-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    2 ห้องนอน
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-12">
+                            <div class="mb-3">
+                                <textarea class="form-control shadow" id="exampleFormControlTextarea1"
+                                    style="font-weight: 100;" placeholder="อื่นๆ โปรดระบุ" rows="1"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-4">
+                    <div class="row m-3">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3 col-sm-12">
+                            <h5>งบประมาณในการซื้อ</h5>
+                        </div>
+                    </div>
+
+
+                    <div class="row m-2">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    1.4 - 1.89 ล้านบาท
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    1.9 - 2.30 ล้านบาท
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    2.4 - 2.79 ล้านบาท
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    2.8 - 3.20 ล้านบาท
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    3.30 - 3.50 ล้านบาท
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    3.6 - 4.50 ล้านบาท
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    ตั้งแต่ 4.50 ล้านบาท ขึ้นไป
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <script>
+
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/intlTelInput.min.js"></script>
+    <script src="js/intlTelInput-jquery.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        intlTelInput(input, {
+            initialCountry: "auto",
+            geoIpLookup: function (success, failure) {
+                $.get("http://ipinfo.io", function () { }, "jsonp").always(function (resp) {
+                    var countryCode = (resp && resp.country) ? resp.country : "";
+                    success(countryCode);
+                });
+            },
+            utilsScript: "js/utils.js"
+        });
+    </script>
+</body>
+
+</html>

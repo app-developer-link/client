@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#over-all{
+    color:white;
+    font-weight: 100px; 
+    background: repeating-linear-gradient(45deg, rgb(16, 16, 19), rgb(20, 20, 26), rgb(36, 34, 46));
+}
+
+#fhone{
+    color: black;
+}
